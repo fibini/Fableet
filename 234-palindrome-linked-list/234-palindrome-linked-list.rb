@@ -10,7 +10,7 @@
 # @return {Boolean}
 def is_palindrome(head)
     array = []
-  pointer = head
+   pointer = head
     while pointer != nil
         array.push(pointer.val)
         pointer = pointer.next
